@@ -2,3 +2,6 @@
 .DS_Store
 data/.DS_Store
 figures/.DS_Store
+data/archive.zip
+data/NBA Shot Locations 1997 - 2020.csv
+data/NBA Shots refined.csv
