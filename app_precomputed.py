@@ -87,9 +87,9 @@ else:
     col1.image(bar_plot)
 
 if zoom:
-    col3.image(accuracy_plot)
-else:
     col3.image(accuracy_plot_zoomed)
+else:
+    col3.image(accuracy_plot)
 col4.image(stats_plot)
 
 col2.image(trend_plot)
