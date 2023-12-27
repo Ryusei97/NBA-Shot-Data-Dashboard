@@ -74,8 +74,8 @@ year = side.selectbox(
    index=None,
    placeholder='Select Season',
 )
-show_gif = side.toggle('gif', value=False)
-zoom = side.toggle('Zoom', value=True)
+show_gif = side.toggle('Animation', value=False)
+zoom = side.toggle('Zoom', value=False)
 
 bar_plot, accuracy_plot, accuracy_plot_zoomed, expected_points, heatmap, stats_plot, trend_plot = load_plots(year)
 
